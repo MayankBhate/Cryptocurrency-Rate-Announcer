@@ -1,4 +1,4 @@
-# API-workshop
+# Cryptocurrency-Rate-Announcer
 This is a python program which announces cryptocurrency rates every ten seconds. <br />
 The program makes use of CryptoCompare and Voice RSS APIS. <br />
 Pre-requisites: <br />
