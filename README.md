@@ -1,9 +1,10 @@
 # API-workshop
-This is a part of an API workshop organized by ISA-VESIT.
-Pre-requisites:
-A] Install requests by using the command pip install requests in terminal.
-B] Similarly, install playsound. 
-C] Generate API keys for CryptoCompare and Voice RSS. 
-   https://min-api.cryptocompare.com/
-   https://www.voicerss.org/api/
+This is a python program which announces cryptocurrency rates every ten seconds. <br />
+The program makes use of CryptoCompare and Voice RSS APIS. <br />
+Pre-requisites: <br />
+A] Install requests by using the command pip install requests in terminal. <br />
+B] Similarly, install playsound. <br />
+C] Generate API keys for CryptoCompare and Voice RSS. <br />
+   https://min-api.cryptocompare.com/ <br />
+   https://www.voicerss.org/api/ <br />
    
