@@ -19,11 +19,11 @@ class Voice():
             print(r.url)
 
             if r.status_code != 200:
-                raise ValueError('Transaction failed.')
+                raise ValueError('Something went wrong.')
 
             return r.content
         except Exception as e:
-            print("You have a problem.")
+            print("An error occured.")
 
     def saveaudio(self, bin):
         f = open('output.wav', 'wb')
