@@ -18,7 +18,7 @@ class crypto():
 
             return r.json()[self.tsyms]
         except Exception as e:
-            print("You have a problem.")
+            print("An error occured.")
 
 if __name__ == '__main__':
     BTC = crypto('CryptoCompare_API_key', 'BTC', 'INR')
